@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+.conteudo {
+    border-radius: 1em;
+    width: 838px;
+    height: 650px;
+    margin: 7em 21.5em;
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+}
+.conteudo__imagem img {
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    width: 433px;
+    height: 650px;
+}
+.conteudo__sobre {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-left: 3em;
+}
+.conteudo__sobre h1 {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    margin-top: 3em;
+    margin-bottom: .5em;
+}
+.conteudo__sobre h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 42px;
+    width: 300px;
+    color: hsl(212, 21%, 14%);
+    margin-bottom: .5em;
+}
+.sobre__produto {
+    font-size: 19px;
+    width: 325px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 1em;
+}
+.conteudo__sobre__preco {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+.preco__novo {
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    font-size: 3.3rem;
+    color: hsl(158, 36%, 37%);
+}
+.preco__antigo {
+    font-size: 19px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    gap: .8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border-radius: .6em;
+    padding: 1.3em;
+}
+.botao:hover {
+    background-color: #1a4031;
+}
