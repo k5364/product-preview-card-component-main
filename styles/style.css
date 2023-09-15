@@ -72,6 +72,7 @@ body {
     justify-content: center;
     gap: .8em;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
     font-weight: 500;
     font-size: 19px;
     color: hsl(0, 0%, 100%);
@@ -81,4 +82,57 @@ body {
 }
 .botao:hover {
     background-color: #1a4031;
+}
+
+@media screen and (max-width: 375px) {
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 1.5em;
+        width: 345px;
+        height: 600px;
+    }
+    .conteudo__imagem img {
+        height: 241px;
+        width: 345px;
+        border-top-right-radius: 1em;
+        border-bottom-left-radius: 0;
+    }
+    .conteudo__sobre {
+        margin-left: 2em;
+        align-items: start;
+        gap: 0em;
+    }
+    .conteudo__sobre h1 {
+        font-size: 12px;
+        letter-spacing: .3rem;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    .conteudo__sobre h2 {
+        font-size: 31.5px;
+    }
+    .sobre__produto {
+        font-size: 14px;
+        width: 295px;
+        margin-bottom: 1.5em;
+    }
+    .conteudo__sobre__preco {
+        
+    }
+    .preco__novo {
+        font-size: 28px;
+    }
+    .preco__antigo {
+        font-size: 12.2px;
+    }
+    .botao {
+        font-size: 13px;
+        text-decoration: none;
+        width: 260px;
+        padding: 1em;
+    }
 }
